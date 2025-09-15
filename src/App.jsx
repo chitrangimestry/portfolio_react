@@ -33,7 +33,7 @@ function App() {
           <Experience />
         </section>
 
-        <section id="education" className="min-h-screen scroll-mt-20">
+        <section id="certifications" className="min-h-screen scroll-mt-20">
           <Certifications />
         </section>
 

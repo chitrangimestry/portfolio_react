@@ -24,7 +24,7 @@ const Navbar = () => {
   useEffect(() => {
     const observerOptions = {
       root: null,
-      threshold: 0.6, // section becomes active when 60% visible
+      threshold: 0.3, // section becomes active when 60% visible
     };
 
     const observer = new IntersectionObserver((entries) => {
