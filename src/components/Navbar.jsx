@@ -44,14 +44,14 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="flex justify-between items-center px-6 py-3 sticky top-0 bg-[#1e1e1e] border-b-2 border-gray-700 z-50">
+    <div className="flex justify-between items-center px-3 py-1 sticky top-0 bg-[#242424] border-b-2 border-gray-800 z-50">
       <div>
         <img
           src={logo}
           alt="logo"
           width={100}
           height={100}
-          className="bg-stone-800 rounded-full"
+          className="bg-stone-900 rounded-full"
         />
       </div>
       <div className="flex flex-row gap-10 text-lg font-medium text-gray-200">

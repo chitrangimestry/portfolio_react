@@ -58,7 +58,7 @@ const technologies = [
 
 const Skills = () => {
 	return (
-		<div className="flex justify-center items-center mt-14 flex-col">
+		<div className="flex justify-center items-center  flex-col min-h-screen">
 			<h1 className="text-4xl underline underline-offset-8 text-amber-500 mb-10">
 				Skills
 			</h1>

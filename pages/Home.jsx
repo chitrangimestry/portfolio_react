@@ -6,8 +6,8 @@ import Skills from "./Skills";
 const Home = () => {
 	return (
 		<>
-			<div className="flex flex-row justify-center gap-25">
-				<div className=" w-[40%] shadow-2xl/20 shadow-amber-100  rounded-2xl p-4">
+			<div className="flex flex-row justify-center gap-25 min-h-screen">
+				<div className=" md:w-[40%] shadow-2xl/20 shadow-amber-100  rounded-2xl p-4">
 					<p className=" font-semibold text-6xl  ">
 						CHITRANGI DEEPAK <br />
 						MESTRY
@@ -24,7 +24,7 @@ const Home = () => {
 					alt="logo"
 					width={300}
 					height={300}
-					className="absolute  left-0  top-140 md:top-140  z-10 m-4 "
+					className="absolute  left-0  top-140 md:top-160  z-10 m-4 "
 				/>
 
 				<div className="flex justify-center items-center text-3xl  w-[40%] p-4 m-4">
